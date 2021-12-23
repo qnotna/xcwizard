@@ -1,3 +1,5 @@
 // Copyright © 2021 Anton Quietzsch
 
-print("Hello, world!")
+import Foundation
+
+print("Hello, Wizard!")
