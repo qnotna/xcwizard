@@ -3,8 +3,8 @@
 import XCTest
 import class Foundation.Bundle
 
-final class XCWizardTests: XCTestCase {
-    func testExample() throws {
+final class DefaultTests: XCTestCase {
+    func testPrint() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
@@ -31,7 +31,7 @@ final class XCWizardTests: XCTestCase {
         let data = pipe.fileHandleForReading.readDataToEndOfFile()
         let output = String(data: data, encoding: .utf8)
 
-        XCTAssertEqual(output, "Hello, world!\n")
+        XCTAssertEqual(output, "Hello, Wizard!\n")
         #endif
     }
 

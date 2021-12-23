@@ -34,7 +34,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "xcwizard::xcwizardTests"
                BuildableName = "xcwizardTests.xctest"
-               BlueprintName = "xcwizardTests"
+               BlueprintName = "XCWizardTests"
                ReferencedContainer = "container:xcwizard.xcodeproj">
             </BuildableReference>
          </TestableReference>
