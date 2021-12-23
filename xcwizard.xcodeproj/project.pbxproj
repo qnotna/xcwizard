@@ -22,6 +22,8 @@
 
 /* Begin PBXBuildFile section */
 		C55E73D32774BFAA00DEC548 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = C55E73D22774BFAA00DEC548 /* ArgumentParser */; };
+		C5E109552774FA8F00538DD3 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E109542774FA8F00538DD3 /* Command.swift */; };
+		C5E109572774FD6E00538DD3 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E109562774FD6E00538DD3 /* Strategy.swift */; };
 		OBJ_23 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_41 /* DefaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* DefaultTests.swift */; };
@@ -46,12 +48,14 @@
 
 /* Begin PBXFileReference section */
 		C5E109522774F62400538DD3 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		C5E109542774FA8F00538DD3 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		C5E109562774FD6E00538DD3 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
 		OBJ_12 /* DefaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTests.swift; sourceTree = "<group>"; };
 		OBJ_16 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		"xcwizard::xcwizard::Product" /* xcwizard */ = {isa = PBXFileReference; lastKnownFileType = text; path = xcwizard; sourceTree = BUILT_PRODUCTS_DIR; };
+		"xcwizard::xcwizard::Product" /* xcwizard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = xcwizard; sourceTree = BUILT_PRODUCTS_DIR; };
 		"xcwizard::xcwizardTests::Product" /* xcwizardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = xcwizardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5E109532774FA7C00538DD3 /* Arguments */ = {
+			isa = PBXGroup;
+			children = (
+				C5E109542774FA8F00538DD3 /* Command.swift */,
+				C5E109562774FD6E00538DD3 /* Strategy.swift */,
+			);
+			path = Arguments;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +137,7 @@
 		OBJ_8 /* XCWizard */ = {
 			isa = PBXGroup;
 			children = (
+				C5E109532774FA7C00538DD3 /* Arguments */,
 				OBJ_9 /* main.swift */,
 			);
 			name = XCWizard;
@@ -147,9 +161,9 @@
 			productName = xcwizardPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		"xcwizard::xcwizard" /* xcwizard */ = {
+		"xcwizard::xcwizard" /* XCWizard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_19 /* Build configuration list for PBXNativeTarget "xcwizard" */;
+			buildConfigurationList = OBJ_19 /* Build configuration list for PBXNativeTarget "XCWizard" */;
 			buildPhases = (
 				OBJ_22 /* Sources */,
 				OBJ_24 /* Frameworks */,
@@ -159,7 +173,7 @@
 			);
 			dependencies = (
 			);
-			name = xcwizard;
+			name = XCWizard;
 			packageProductDependencies = (
 				C55E73D22774BFAA00DEC548 /* ArgumentParser */,
 			);
@@ -208,7 +222,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"xcwizard::xcwizard" /* xcwizard */,
+				"xcwizard::xcwizard" /* XCWizard */,
 				"xcwizard::SwiftPMPackageDescription" /* XCWizardPackageDescription */,
 				"xcwizard::xcwizardPackageTests::ProductTarget" /* XCWizardPackageTests */,
 				"xcwizard::xcwizardTests" /* XCWizardTests */,
@@ -243,6 +257,8 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_23 /* main.swift in Sources */,
+				C5E109552774FA8F00538DD3 /* Command.swift in Sources */,
+				C5E109572774FD6E00538DD3 /* Strategy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +288,7 @@
 		};
 		OBJ_43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "xcwizard::xcwizard" /* xcwizard */;
+			target = "xcwizard::xcwizard" /* XCWizard */;
 			targetProxy = C55E73CF2774BF8800DEC548 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -489,7 +505,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_19 /* Build configuration list for PBXNativeTarget "xcwizard" */ = {
+		OBJ_19 /* Build configuration list for PBXNativeTarget "XCWizard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_20 /* Debug */,

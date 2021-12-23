@@ -3,3 +3,4 @@
 import Foundation
 
 print("Hello, Wizard!")
+Command.main()

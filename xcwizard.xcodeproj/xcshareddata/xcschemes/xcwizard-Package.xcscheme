@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "xcwizard::xcwizard"
                BuildableName = "xcwizard"
-               BlueprintName = "xcwizard"
+               BlueprintName = "XCWizard"
                ReferencedContainer = "container:xcwizard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,7 +56,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "xcwizard::xcwizard"
             BuildableName = "xcwizard"
-            BlueprintName = "xcwizard"
+            BlueprintName = "XCWizard"
             ReferencedContainer = "container:xcwizard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
