@@ -4,28 +4,60 @@ import ArgumentParser
 import Foundation
 
 struct Command: ParsableCommand {
-    @Argument(help: "Choose whether to save or load a Xcode configuration.")
-    private var strategy: Strategy
+    static let configuration = CommandConfiguration(
+        commandName: "xcwizard",
+        abstract: "Transfer your Xcode configuration to new Macs or users using iCloud",
+        discussion: "Configuration files will be synchronized between iCloud and '~/Library/Developer/Xcode/UserData'. You can choose which files to exclude from transferring by using the 'skip' flags.",
+        version: "1.0.0"
+    )
 
-    @Argument(help: "The location of the directory containing the current Xcode configuration.")
-    private var fileUrl: URL
+    // MARK: - User input
 
-    @Argument(help: "The kinds of data that should be transferred.")
-    private var payload: [Payload]
+    @Argument(help: .strategy)           private var strategy: Strategy
 
-    func run() throws {
-        switch strategy {
-        case .save: saveConfiguration()
-        case .load: loadConfiguration()
-        }
-        print("Magic complete performing strategy \(strategy)")
+    @Flag(help: .skipFontAndColorThemes) private var skipFontAndColorThemes = false
+    @Flag(help: .skipKeyBindings)        private var skipKeyBindings = false
+    @Flag(help: .skipCodeSnippets)       private var skipCodeSnippets = false
+    @Flag(help: .skipUserStates)         private var skipUserStates = false
+    @Flag(help: .skipOther)              private var skipOther = false
+
+    @Flag(help: .createIfNeeded)         private var createIfNeeded = false
+
+    // MARK: - Collecting the payload
+
+    private var payload: [Payload] {
+        []
     }
 
-    private func saveConfiguration() {
+    // MARK: - Running the command
+
+    func run() throws {
+        do {
+            let directory = try FileManager.default.workingDirectory
+            if try directory.checkResourceIsReachable() {
+                switch strategy {
+                case .save:
+                    if createIfNeeded {
+                        fatalError("Not yet implemented.")
+                    }
+                    saveToDisk()
+                case .load:
+                    loadFromCloud()
+                }
+                print("Magic complete performing strategy \(strategy)")
+            } else {
+                fatalError("Not yet implemented.")
+            }
+        } catch {
+            Self.exit(withError: error)
+        }
+    }
+
+    private func saveToDisk() {
         print("Saved \(payload).")
     }
 
-    private func loadConfiguration() {
+    private func loadFromCloud() {
         print("Loaded \(payload).")
     }
 }
