@@ -3,4 +3,4 @@
 import Foundation
 
 print("Hello, Wizard!")
-XCWizard.main()
+Command.main()
