@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "xcwizard::xcwizard"
-               BuildableName = "xcwizard"
+               BlueprintIdentifier = "XCWizard::XCWizard"
+               BuildableName = "XCWizard"
                BlueprintName = "XCWizard"
                ReferencedContainer = "container:xcwizard.xcodeproj">
             </BuildableReference>
@@ -32,8 +32,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "xcwizard::xcwizardTests"
-               BuildableName = "xcwizardTests.xctest"
+               BlueprintIdentifier = "XCWizard::XCWizardTests"
+               BuildableName = "XCWizardTests.xctest"
                BlueprintName = "XCWizardTests"
                ReferencedContainer = "container:xcwizard.xcodeproj">
             </BuildableReference>
@@ -54,8 +54,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "xcwizard::xcwizard"
-            BuildableName = "xcwizard"
+            BlueprintIdentifier = "XCWizard::XCWizard"
+            BuildableName = "XCWizard"
             BlueprintName = "XCWizard"
             ReferencedContainer = "container:xcwizard.xcodeproj">
          </BuildableReference>

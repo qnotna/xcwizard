@@ -2,5 +2,5 @@
 
 import Foundation
 
-print("Hello, Wizard!")
+print(try FileManager.default.workingDirectory)
 Command.main()

@@ -7,86 +7,87 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		"xcwizard::xcwizardPackageTests::ProductTarget" /* XCWizardPackageTests */ = {
+		"XCWizard::XCWizardPackageTests::ProductTarget" /* XCWizardPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_32 /* Build configuration list for PBXAggregateTarget "XCWizardPackageTests" */;
+			buildConfigurationList = OBJ_168 /* Build configuration list for PBXAggregateTarget "XCWizardPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_35 /* PBXTargetDependency */,
+				OBJ_171 /* PBXTargetDependency */,
 			);
 			name = XCWizardPackageTests;
-			productName = xcwizardPackageTests;
+			productName = XCWizardPackageTests;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		C55E73D32774BFAA00DEC548 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = C55E73D22774BFAA00DEC548 /* ArgumentParser */; };
-		C5E109552774FA8F00538DD3 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E109542774FA8F00538DD3 /* Command.swift */; };
-		C5E109572774FD6E00538DD3 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E109562774FD6E00538DD3 /* Strategy.swift */; };
-		C5E109642775150400538DD3 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E109632775150400538DD3 /* URL+Extensions.swift */; };
-		C5E10969277754D100538DD3 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E10968277754D100538DD3 /* Payload.swift */; };
-		C5E1096C27775E1D00538DD3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E1096B27775E1D00538DD3 /* File.swift */; };
-		C5E1096E27775E6400538DD3 /* XCColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E1096D27775E6400538DD3 /* XCColorTheme.swift */; };
-		C5E1097027775E7F00538DD3 /* IDEKeybindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E1096F27775E7F00538DD3 /* IDEKeybindings.swift */; };
-		C5E1097227775E9900538DD3 /* CodeSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E1097127775E9900538DD3 /* CodeSnippet.swift */; };
-		C5E1097427775EA900538DD3 /* Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E1097327775EA900538DD3 /* Binary.swift */; };
-		C5E1097727775EEB00538DD3 /* XCUserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E1097627775EEB00538DD3 /* XCUserState.swift */; };
-		C5E10979277760D800538DD3 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E10978277760D800538DD3 /* Directory.swift */; };
-		OBJ_23 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
-		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_41 /* DefaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* DefaultTests.swift */; };
+		C5A67DD62777779000A55D7D /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = C5A67DD52777779000A55D7D /* ArgumentParser */; };
+		OBJ_143 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Command.swift */; };
+		OBJ_144 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Strategy.swift */; };
+		OBJ_145 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* FileManager+Extension.swift */; };
+		OBJ_146 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* URL+Extensions.swift */; };
+		OBJ_147 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Directory.swift */; };
+		OBJ_148 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* File.swift */; };
+		OBJ_149 /* Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Binary.swift */; };
+		OBJ_150 /* CodeSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* CodeSnippet.swift */; };
+		OBJ_151 /* IDEKeybindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* IDEKeybindings.swift */; };
+		OBJ_152 /* XCColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* XCColorTheme.swift */; };
+		OBJ_153 /* XCUserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* XCUserState.swift */; };
+		OBJ_154 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Payload.swift */; };
+		OBJ_155 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* main.swift */; };
+		OBJ_166 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_177 /* DefaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* DefaultTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C55E73CF2774BF8800DEC548 /* PBXContainerItemProxy */ = {
+		C5E109882777765800538DD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = "xcwizard::xcwizard";
-			remoteInfo = xcwizard;
+			remoteGlobalIDString = "XCWizard::XCWizard";
+			remoteInfo = XCWizard;
 		};
-		C55E73D02774BF8900DEC548 /* PBXContainerItemProxy */ = {
+		C5E1098B2777765900538DD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = "xcwizard::xcwizardTests";
-			remoteInfo = xcwizardTests;
+			remoteGlobalIDString = "XCWizard::XCWizardTests";
+			remoteInfo = XCWizardTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C5E109522774F62400538DD3 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
-		C5E109542774FA8F00538DD3 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
-		C5E109562774FD6E00538DD3 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
-		C5E109632775150400538DD3 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
-		C5E10968277754D100538DD3 /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
-		C5E1096B27775E1D00538DD3 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		C5E1096D27775E6400538DD3 /* XCColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCColorTheme.swift; sourceTree = "<group>"; };
-		C5E1096F27775E7F00538DD3 /* IDEKeybindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDEKeybindings.swift; sourceTree = "<group>"; };
-		C5E1097127775E9900538DD3 /* CodeSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnippet.swift; sourceTree = "<group>"; };
-		C5E1097327775EA900538DD3 /* Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary.swift; sourceTree = "<group>"; };
-		C5E1097627775EEB00538DD3 /* XCUserState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUserState.swift; sourceTree = "<group>"; };
-		C5E10978277760D800538DD3 /* Directory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
-		OBJ_12 /* DefaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTests.swift; sourceTree = "<group>"; };
-		OBJ_16 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		OBJ_17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_10 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		OBJ_11 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		OBJ_13 /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		OBJ_14 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_16 /* Directory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
+		OBJ_17 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary.swift; sourceTree = "<group>"; };
+		OBJ_20 /* CodeSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnippet.swift; sourceTree = "<group>"; };
+		OBJ_21 /* IDEKeybindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDEKeybindings.swift; sourceTree = "<group>"; };
+		OBJ_22 /* XCColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCColorTheme.swift; sourceTree = "<group>"; };
+		OBJ_23 /* XCUserState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUserState.swift; sourceTree = "<group>"; };
+		OBJ_24 /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		OBJ_25 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_28 /* DefaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		"xcwizard::xcwizard::Product" /* xcwizard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = xcwizard; sourceTree = BUILT_PRODUCTS_DIR; };
-		"xcwizard::xcwizardTests::Product" /* xcwizardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = xcwizardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_84 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_85 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		"XCWizard::XCWizard::Product" /* XCWizard */ = {isa = PBXFileReference; lastKnownFileType = text; name = XCWizard; path = /Users/antonquatsch/Developer/xcwizard/build/Debug/XCWizard; sourceTree = "<absolute>"; };
+		"XCWizard::XCWizardTests::Product" /* XCWizardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = XCWizardTests.xctest; path = /Users/antonquatsch/Developer/xcwizard/build/Debug/XCWizardTests.xctest; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_24 /* Frameworks */ = {
+		OBJ_156 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				C55E73D32774BFAA00DEC548 /* ArgumentParser in Frameworks */,
+				C5A67DD62777779000A55D7D /* ArgumentParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_42 /* Frameworks */ = {
+		OBJ_178 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -96,82 +97,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C5E109532774FA7C00538DD3 /* Arguments */ = {
+		OBJ_12 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C5E109542774FA8F00538DD3 /* Command.swift */,
-				C5E109562774FD6E00538DD3 /* Strategy.swift */,
-			);
-			path = Arguments;
-			sourceTree = "<group>";
-		};
-		C5E10962277514FA00538DD3 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				C5E109632775150400538DD3 /* URL+Extensions.swift */,
+				OBJ_13 /* FileManager+Extension.swift */,
+				OBJ_14 /* URL+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		C5E1096A27775E0F00538DD3 /* Files */ = {
+		OBJ_15 /* Payload */ = {
 			isa = PBXGroup;
 			children = (
-				C5E1096D27775E6400538DD3 /* XCColorTheme.swift */,
-				C5E1096F27775E7F00538DD3 /* IDEKeybindings.swift */,
-				C5E1097127775E9900538DD3 /* CodeSnippet.swift */,
-				C5E1097327775EA900538DD3 /* Binary.swift */,
-				C5E1097627775EEB00538DD3 /* XCUserState.swift */,
-			);
-			path = Files;
-			sourceTree = "<group>";
-		};
-		C5E1097527775EBE00538DD3 /* Payload */ = {
-			isa = PBXGroup;
-			children = (
-				C5E10968277754D100538DD3 /* Payload.swift */,
-				C5E10978277760D800538DD3 /* Directory.swift */,
-				C5E1096B27775E1D00538DD3 /* File.swift */,
-				C5E1096A27775E0F00538DD3 /* Files */,
+				OBJ_16 /* Directory.swift */,
+				OBJ_17 /* File.swift */,
+				OBJ_18 /* Files */,
+				OBJ_24 /* Payload.swift */,
 			);
 			path = Payload;
 			sourceTree = "<group>";
 		};
-		OBJ_10 /* Tests */ = {
+		OBJ_18 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* XCWizardTests */,
+				OBJ_19 /* Binary.swift */,
+				OBJ_20 /* CodeSnippet.swift */,
+				OBJ_21 /* IDEKeybindings.swift */,
+				OBJ_22 /* XCColorTheme.swift */,
+				OBJ_23 /* XCUserState.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		OBJ_26 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* XCWizardTests */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_11 /* XCWizardTests */ = {
+		OBJ_27 /* XCWizardTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* DefaultTests.swift */,
+				OBJ_28 /* DefaultTests.swift */,
 			);
 			name = XCWizardTests;
 			path = Tests/XCWizardTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_13 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				"xcwizard::xcwizard::Product" /* xcwizard */,
-				"xcwizard::xcwizardTests::Product" /* xcwizardTests.xctest */,
-			);
-			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				C5E109522774F62400538DD3 /* .swiftlint.yml */,
-				OBJ_16 /* LICENSE */,
-				OBJ_17 /* README.md */,
 				OBJ_6 /* Package.swift */,
-				OBJ_13 /* Products */,
 				OBJ_7 /* Sources */,
-				OBJ_10 /* Tests */,
+				OBJ_26 /* Tests */,
+				OBJ_84 /* LICENSE */,
+				OBJ_85 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,39 +168,47 @@
 		OBJ_8 /* XCWizard */ = {
 			isa = PBXGroup;
 			children = (
-				C5E1097527775EBE00538DD3 /* Payload */,
-				C5E10962277514FA00538DD3 /* Extensions */,
-				C5E109532774FA7C00538DD3 /* Arguments */,
-				OBJ_9 /* main.swift */,
+				OBJ_9 /* Arguments */,
+				OBJ_12 /* Extensions */,
+				OBJ_15 /* Payload */,
+				OBJ_25 /* main.swift */,
 			);
 			name = XCWizard;
 			path = Sources/XCWizard;
 			sourceTree = SOURCE_ROOT;
 		};
+		OBJ_9 /* Arguments */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* Command.swift */,
+				OBJ_11 /* Strategy.swift */,
+			);
+			path = Arguments;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		"xcwizard::SwiftPMPackageDescription" /* XCWizardPackageDescription */ = {
+		"XCWizard::SwiftPMPackageDescription" /* XCWizardPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_26 /* Build configuration list for PBXNativeTarget "XCWizardPackageDescription" */;
+			buildConfigurationList = OBJ_162 /* Build configuration list for PBXNativeTarget "XCWizardPackageDescription" */;
 			buildPhases = (
-				OBJ_29 /* Sources */,
+				OBJ_165 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = XCWizardPackageDescription;
-			productName = xcwizardPackageDescription;
+			productName = XCWizardPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		"xcwizard::xcwizard" /* XCWizard */ = {
+		"XCWizard::XCWizard" /* XCWizard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_19 /* Build configuration list for PBXNativeTarget "XCWizard" */;
+			buildConfigurationList = OBJ_139 /* Build configuration list for PBXNativeTarget "XCWizard" */;
 			buildPhases = (
-				OBJ_22 /* Sources */,
-				OBJ_24 /* Frameworks */,
-				C5E109502774F45F00538DD3 /* Run SwiftLint */,
+				OBJ_142 /* Sources */,
+				OBJ_156 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,27 +216,27 @@
 			);
 			name = XCWizard;
 			packageProductDependencies = (
-				C55E73D22774BFAA00DEC548 /* ArgumentParser */,
+				C5A67DD52777779000A55D7D /* ArgumentParser */,
 			);
-			productName = xcwizard;
-			productReference = "xcwizard::xcwizard::Product" /* xcwizard */;
+			productName = XCWizard;
+			productReference = "XCWizard::XCWizard::Product" /* XCWizard */;
 			productType = "com.apple.product-type.tool";
 		};
-		"xcwizard::xcwizardTests" /* XCWizardTests */ = {
+		"XCWizard::XCWizardTests" /* XCWizardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "XCWizardTests" */;
+			buildConfigurationList = OBJ_173 /* Build configuration list for PBXNativeTarget "XCWizardTests" */;
 			buildPhases = (
-				OBJ_40 /* Sources */,
-				OBJ_42 /* Frameworks */,
+				OBJ_176 /* Sources */,
+				OBJ_178 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_43 /* PBXTargetDependency */,
+				OBJ_181 /* PBXTargetDependency */,
 			);
 			name = XCWizardTests;
-			productName = xcwizardTests;
-			productReference = "xcwizard::xcwizardTests::Product" /* xcwizardTests.xctest */;
+			productName = XCWizardTests;
+			productReference = "XCWizard::XCWizardTests::Product" /* XCWizardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -267,105 +257,84 @@
 			);
 			mainGroup = OBJ_5;
 			packageReferences = (
-				C55E73D12774BFAA00DEC548 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				C5A67DD42777779000A55D7D /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 			);
-			productRefGroup = OBJ_13 /* Products */;
+			productRefGroup = OBJ_5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"xcwizard::xcwizard" /* XCWizard */,
-				"xcwizard::SwiftPMPackageDescription" /* XCWizardPackageDescription */,
-				"xcwizard::xcwizardPackageTests::ProductTarget" /* XCWizardPackageTests */,
-				"xcwizard::xcwizardTests" /* XCWizardTests */,
+				"XCWizard::XCWizard" /* XCWizard */,
+				"XCWizard::SwiftPMPackageDescription" /* XCWizardPackageDescription */,
+				"XCWizard::XCWizardPackageTests::ProductTarget" /* XCWizardPackageTests */,
+				"XCWizard::XCWizardTests" /* XCWizardTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		C5E109502774F45F00538DD3 /* Run SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run SwiftLint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_22 /* Sources */ = {
+		OBJ_142 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_23 /* main.swift in Sources */,
-				C5E1096C27775E1D00538DD3 /* File.swift in Sources */,
-				C5E109642775150400538DD3 /* URL+Extensions.swift in Sources */,
-				C5E1097227775E9900538DD3 /* CodeSnippet.swift in Sources */,
-				C5E109552774FA8F00538DD3 /* Command.swift in Sources */,
-				C5E1097027775E7F00538DD3 /* IDEKeybindings.swift in Sources */,
-				C5E10969277754D100538DD3 /* Payload.swift in Sources */,
-				C5E1096E27775E6400538DD3 /* XCColorTheme.swift in Sources */,
-				C5E1097427775EA900538DD3 /* Binary.swift in Sources */,
-				C5E109572774FD6E00538DD3 /* Strategy.swift in Sources */,
-				C5E1097727775EEB00538DD3 /* XCUserState.swift in Sources */,
-				C5E10979277760D800538DD3 /* Directory.swift in Sources */,
+				OBJ_143 /* Command.swift in Sources */,
+				OBJ_144 /* Strategy.swift in Sources */,
+				OBJ_145 /* FileManager+Extension.swift in Sources */,
+				OBJ_146 /* URL+Extensions.swift in Sources */,
+				OBJ_147 /* Directory.swift in Sources */,
+				OBJ_148 /* File.swift in Sources */,
+				OBJ_149 /* Binary.swift in Sources */,
+				OBJ_150 /* CodeSnippet.swift in Sources */,
+				OBJ_151 /* IDEKeybindings.swift in Sources */,
+				OBJ_152 /* XCColorTheme.swift in Sources */,
+				OBJ_153 /* XCUserState.swift in Sources */,
+				OBJ_154 /* Payload.swift in Sources */,
+				OBJ_155 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_29 /* Sources */ = {
+		OBJ_165 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_30 /* Package.swift in Sources */,
+				OBJ_166 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_40 /* Sources */ = {
+		OBJ_176 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_41 /* DefaultTests.swift in Sources */,
+				OBJ_177 /* DefaultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_35 /* PBXTargetDependency */ = {
+		OBJ_171 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "xcwizard::xcwizardTests" /* XCWizardTests */;
-			targetProxy = C55E73D02774BF8900DEC548 /* PBXContainerItemProxy */;
+			target = "XCWizard::XCWizardTests" /* XCWizardTests */;
+			targetProxy = C5E1098B2777765900538DD3 /* PBXContainerItemProxy */;
 		};
-		OBJ_43 /* PBXTargetDependency */ = {
+		OBJ_181 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "xcwizard::xcwizard" /* XCWizard */;
-			targetProxy = C55E73CF2774BF8800DEC548 /* PBXContainerItemProxy */;
+			target = "XCWizard::XCWizard" /* XCWizard */;
+			targetProxy = C5E109882777765800538DD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_20 /* Debug */ = {
+		OBJ_140 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZGXK69528C;
 				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = xcwizard.xcodeproj/xcwizard_Info.plist;
+				INFOPLIST_FILE = XCWizard.xcodeproj/XCWizard_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,24 +349,23 @@
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_VERSION = 5.0;
-				TARGET_NAME = xcwizard;
+				TARGET_NAME = XCWizard;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		OBJ_21 /* Release */ = {
+		OBJ_141 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZGXK69528C;
 				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = xcwizard.xcodeproj/xcwizard_Info.plist;
+				INFOPLIST_FILE = XCWizard.xcodeproj/XCWizard_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -412,13 +380,13 @@
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_VERSION = 5.0;
-				TARGET_NAME = xcwizard;
+				TARGET_NAME = XCWizard;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		OBJ_27 /* Debug */ = {
+		OBJ_163 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -427,12 +395,86 @@
 			};
 			name = Debug;
 		};
-		OBJ_28 /* Release */ = {
+		OBJ_164 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -package-description-version 5.5.0";
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = XCWizard.xcodeproj/XCWizardTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = XCWizardTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = XCWizard.xcodeproj/XCWizardTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = XCWizardTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -464,80 +506,6 @@
 			};
 			name = Debug;
 		};
-		OBJ_33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		OBJ_38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = xcwizard.xcodeproj/xcwizardTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = xcwizardTests;
-				TVOS_DEPLOYMENT_TARGET = 14.0;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
-			};
-			name = Debug;
-		};
-		OBJ_39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = xcwizard.xcodeproj/xcwizardTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = xcwizardTests;
-				TVOS_DEPLOYMENT_TARGET = 14.0;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
-			};
-			name = Release;
-		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -567,11 +535,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_19 /* Build configuration list for PBXNativeTarget "XCWizard" */ = {
+		OBJ_139 /* Build configuration list for PBXNativeTarget "XCWizard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_20 /* Debug */,
-				OBJ_21 /* Release */,
+				OBJ_140 /* Debug */,
+				OBJ_141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_162 /* Build configuration list for PBXNativeTarget "XCWizardPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_163 /* Debug */,
+				OBJ_164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_168 /* Build configuration list for PBXAggregateTarget "XCWizardPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_169 /* Debug */,
+				OBJ_170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_173 /* Build configuration list for PBXNativeTarget "XCWizardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_174 /* Debug */,
+				OBJ_175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -585,37 +580,10 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_26 /* Build configuration list for PBXNativeTarget "XCWizardPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_27 /* Debug */,
-				OBJ_28 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_32 /* Build configuration list for PBXAggregateTarget "XCWizardPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_33 /* Debug */,
-				OBJ_34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_37 /* Build configuration list for PBXNativeTarget "XCWizardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_38 /* Debug */,
-				OBJ_39 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C55E73D12774BFAA00DEC548 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+		C5A67DD42777779000A55D7D /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
 			requirement = {
@@ -626,9 +594,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C55E73D22774BFAA00DEC548 /* ArgumentParser */ = {
+		C5A67DD52777779000A55D7D /* ArgumentParser */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C55E73D12774BFAA00DEC548 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			package = C5A67DD42777779000A55D7D /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
 			productName = ArgumentParser;
 		};
 /* End XCSwiftPackageProductDependency section */
