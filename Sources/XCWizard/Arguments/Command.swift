@@ -10,6 +10,9 @@ struct Command: ParsableCommand {
     @Argument(help: "The location of the directory containing the current Xcode configuration.")
     private var fileUrl: URL
 
+    @Argument(help: "The kinds of data that should be transferred.")
+    private var payload: [Payload]
+
     func run() throws {
         switch strategy {
         case .save: saveConfiguration()
@@ -19,10 +22,10 @@ struct Command: ParsableCommand {
     }
 
     private func saveConfiguration() {
-        print("Saved.")
+        print("Saved \(payload).")
     }
 
     private func loadConfiguration() {
-        print("Loaded.")
+        print("Loaded \(payload).")
     }
 }
