@@ -6,11 +6,11 @@ import Foundation
 /// The payload that shoud be transferred.
 enum Payload {
     /// Items in the `./FontAndColorThemes` directory.
-    case fontAndColorThemes([XCColorTheme])
+    case fontAndColorThemes(Directory<XCColorTheme>)
     /// Items in the `./KeyBindings` directory.
-    case keyBindings([IDEKeybindings])
+    case keyBindings(Directory<IDEKeybindings>)
     /// Items in the `./CodeSnippets` directory.
-    case codeSnippets([CodeSnippet])
+    case codeSnippets(Directory<CodeSnippet>)
     /// All `.xcuserstate` files.
     case userState([XCUserState])
     /// All other files.

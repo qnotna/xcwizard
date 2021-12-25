@@ -32,6 +32,7 @@
 		C5E1097227775E9900538DD3 /* CodeSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E1097127775E9900538DD3 /* CodeSnippet.swift */; };
 		C5E1097427775EA900538DD3 /* Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E1097327775EA900538DD3 /* Binary.swift */; };
 		C5E1097727775EEB00538DD3 /* XCUserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E1097627775EEB00538DD3 /* XCUserState.swift */; };
+		C5E10979277760D800538DD3 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E10978277760D800538DD3 /* Directory.swift */; };
 		OBJ_23 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_41 /* DefaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* DefaultTests.swift */; };
@@ -66,6 +67,7 @@
 		C5E1097127775E9900538DD3 /* CodeSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnippet.swift; sourceTree = "<group>"; };
 		C5E1097327775EA900538DD3 /* Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary.swift; sourceTree = "<group>"; };
 		C5E1097627775EEB00538DD3 /* XCUserState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUserState.swift; sourceTree = "<group>"; };
+		C5E10978277760D800538DD3 /* Directory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
 		OBJ_12 /* DefaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTests.swift; sourceTree = "<group>"; };
 		OBJ_16 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -114,7 +116,6 @@
 		C5E1096A27775E0F00538DD3 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				C5E1096B27775E1D00538DD3 /* File.swift */,
 				C5E1096D27775E6400538DD3 /* XCColorTheme.swift */,
 				C5E1096F27775E7F00538DD3 /* IDEKeybindings.swift */,
 				C5E1097127775E9900538DD3 /* CodeSnippet.swift */,
@@ -128,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				C5E10968277754D100538DD3 /* Payload.swift */,
+				C5E10978277760D800538DD3 /* Directory.swift */,
+				C5E1096B27775E1D00538DD3 /* File.swift */,
 				C5E1096A27775E0F00538DD3 /* Files */,
 			);
 			path = Payload;
@@ -315,6 +318,7 @@
 				C5E1097427775EA900538DD3 /* Binary.swift in Sources */,
 				C5E109572774FD6E00538DD3 /* Strategy.swift in Sources */,
 				C5E1097727775EEB00538DD3 /* XCUserState.swift in Sources */,
+				C5E10979277760D800538DD3 /* Directory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
